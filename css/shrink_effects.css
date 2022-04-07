@@ -1,0 +1,32 @@
+#main {
+  
+   
+    display: flex;
+    
+    box-shadow:#737373 1px 5px 5px 0px;
+}
+
+#main tbody {
+    flex-grow: 6;
+    flex-shrink: 18;
+    flex-basis: 300px;
+}
+
+.progress3, .progress4{
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {flex-shrink: 8;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {flex-shrink: 8;}
+}
+
+
+
+
